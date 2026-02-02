@@ -14,7 +14,7 @@ for (let i = 0; i < 10; i ++) {
     numeros.add(readline.questionInt('Digite um numero: '));
 } */
 
-//Digita até que o tamanho do Set(10), seja atingido, se repetir numeros continuar pedindo até preencher 
+//Digita até que o tamanho do Set(10), seja atingido, se repetir numeros continua pedindo até preencher 
 while (numeros.size < 10) {
     const num = readline.questionInt('Digite um numero: ');
     numeros.add(num);

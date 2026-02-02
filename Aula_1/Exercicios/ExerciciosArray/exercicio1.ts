@@ -17,7 +17,6 @@ for (let i = 0; i < 5; i ++) {
     cores.push(cor);
 }
 
-console.table(cores);
 console.table(cores.sort());
 
 
