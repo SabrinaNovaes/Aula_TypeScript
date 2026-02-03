@@ -9,7 +9,7 @@ interface queueInterface<Type> {
    clear(): void; // limpa a fila toda, apaga tudo da fila
 }
  
-class Queue<Type> implements queueInterface<Type> {
+export class Queue<Type> implements queueInterface<Type> {
  
    private QueueData: Array<Type> = [];
  
@@ -68,5 +68,3 @@ class Queue<Type> implements queueInterface<Type> {
    }
  
 }
-
-export = Queue;
