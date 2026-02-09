@@ -5,9 +5,9 @@ let num1, num2: number;
 
 do {
   console.log("***************************************************************");
-  console.log("          | 1 - Soma          | 2 - Subtração |");
-  console.log("          | 3 - Multiplicação | 4 - Divisão   |");
-  console.log("          | 0 - Sair          |");
+  console.log("          | 1 - Soma          | 2 - Subtração |                ");
+  console.log("          | 3 - Multiplicação | 4 - Divisão   |                ");
+  console.log("          | 0 - Sair          |                                ");
   console.log("***************************************************************");
 
   opcao = leia.questionInt("Digite a operacao: ");
